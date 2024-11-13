@@ -1,0 +1,32 @@
+/* Posicionamiento  */
+.div {
+  width: 250px;
+  border: 1px solid black;
+}
+
+.child {
+  background-color: green;
+}
+
+#container {
+  padding: 15px;
+  background-color: chocolate;
+  color: white;
+}
+
+#target {
+}
+
+/* Flotacion */
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}

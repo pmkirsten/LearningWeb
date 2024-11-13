@@ -1,0 +1,15 @@
+.container {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+  height: 500px;
+  align-items: flex-start;
+}
+
+.child {
+  border: 1px dashed black;
+}

@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  font-size: 50px;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  body {
+    background-color: beige;
+  }
+}
+
+@media print {
+  nav {
+    display: none;
+  }
+}
